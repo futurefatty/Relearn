@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/line_shape"
+    android:dividerPadding="10dp"
+    android:orientation="vertical"
+    android:showDividers="middle">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/dtvivder_text" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:drawableBottom="@drawable/line_shape"
+        android:text="按钮一"
+        android:textAllCaps="false" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/line_v"
+        android:dividerPadding="2dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:showDividers="end">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="按钮二" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/line_v"
+        android:dividerPadding="2dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:showDividers="beginning">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="按钮三"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我知道还有很多效果我已经忘记该怎么写等回顾以后再补上2019-07-02" />
+</LinearLayout>
