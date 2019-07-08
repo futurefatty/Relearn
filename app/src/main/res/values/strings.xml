@@ -2,8 +2,11 @@
     <string name="app_name">Relearn</string><!--应用名称 -->
     <string name="baiduMap_key">tBPclpfkbQb0oEoOggFwydbRikkB3hPC</string><!--百度地图key-->
     <string name="voiceover">我曾想过要做点什么，但是发现自己并没有真正的去认真的去做过什么，所以心情就会变的比较的沉重。</string>
+    <string name="vertical_layout">a.垂直方向设置线性布局属性android:orientation="vertical"则此线性布局内的所有控件都是沿着垂直方向列队</string>
+    <string name="horizontal_layout">a.水平方向设置线性布局属性android:orientation="horizontal"则此线性布局内的所有控件都是沿着水平方向列队</string>
     <string name="weight_textView">layout_weight="1"</string>
     <string name="dtvivder_text"> 1.android:divider设置作为分割线的图片
         2.android:showDividers设置分割线的位置,none(无),beginning(开始),end(结束),middle(每两个组件间)
         3.dividerPadding设置分割线的Padding</string>
+    <string name="gravity">android:gravity="right"</string>
 </resources>
