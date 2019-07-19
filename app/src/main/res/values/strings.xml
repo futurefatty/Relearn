@@ -8,5 +8,9 @@
     <string name="dtvivder_text"> 1.android:divider设置作为分割线的图片
         2.android:showDividers设置分割线的位置,none(无),beginning(开始),end(结束),middle(每两个组件间)
         3.dividerPadding设置分割线的Padding</string>
-    <string name="gravity">android:gravity="right"</string>
+    <string name="gravity_right">android:gravity="right"</string>
+    <string name="gravity_left">android:gravity="left"</string>
+    <string name="gravity_top_center">android:gravity="top|center"</string>
+    <string name="gravity_bottom_right">android:gravity="bottom|right"</string>
+    <string name="layout_gravity_center">layout_gravity="center"</string>
 </resources>
